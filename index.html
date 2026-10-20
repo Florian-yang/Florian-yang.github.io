@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jianchun Yang (杨健淳), undergraduate researcher at Wuhan University. Research on world models, parameter-efficient adaptation, and inference optimization.">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Jianchun Yang · 杨健淳">
+  <meta property="og:description" content="World models, parameter-efficient adaptation, and inference optimization. Wuhan University.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://florian-yang.github.io/">
+  <link rel="canonical" href="https://florian-yang.github.io/">
+  <title>Jianchun Yang · 杨健淳</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="home-link" href="#about">Jianchun Yang</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#awards">Awards</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="profile" aria-label="Profile">
+      <div class="portrait"><img src="profile.png" alt="Jianchun Yang’s GitHub profile image" width="160" height="160"></div>
+      <h1>Jianchun Yang</h1>
+      <p class="name-cn" lang="zh-CN">杨健淳</p>
+      <p class="profile-role">Undergraduate Researcher</p>
+      <p class="profile-affiliation">School of Remote Sensing<br>and Information Engineering<br><a href="https://www.whu.edu.cn/" target="_blank" rel="noopener noreferrer">Wuhan University</a></p>
+      <p class="profile-interests">World Models<br>Efficient Adaptation<br>Inference Optimization</p>
+      <ul class="contact-list">
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>Wuhan, China</li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><a href="mailto:yangjianchun@whu.edu.cn">Email</a></li>
+        <li><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m8 5-7 7 7 7m8-14 7 7-7 7m-2-16-4 18"/></svg><a href="https://github.com/Florian-yang" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      </ul>
+      <p class="email-text"><a href="mailto:yangjianchun@whu.edu.cn">yangjianchun@whu.edu.cn</a></p>
+    </aside>
+
+    <main>
+      <section id="about" class="about-section">
+        <p class="section-eyebrow">ABOUT ME</p>
+        <h2 class="intro-heading">Learning continuously.<br>Predicting efficiently.</h2>
+        <p>I am a third-year undergraduate at the <strong>School of Remote Sensing and Information Engineering, Wuhan University</strong>, majoring in Spatial Information and Digital Technology in the experimental program.</p>
+        <p>My research interests lie in <strong>world models</strong>, <strong>parameter-efficient adaptation</strong>, and <strong>inference optimization</strong>. I am interested in how models accumulate knowledge across tasks and how useful predictions can be made with limited computation.</p>
+        <p>I conduct research with Prof. <strong>Mang Ye</strong> at Wuhan University. My research experience also includes an internship at <strong>Great Wall Motor</strong> and collaboration with <strong>Peking University and Lightwheel</strong> on world action models.</p>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-08-23">Aug 2026</time><span><a href="https://arxiv.org/abs/2608.22403" target="_blank" rel="noopener noreferrer">LD4WAM</a>, our collaborative work on motion-aligned dynamics for world action models, is available on arXiv.</span></li>
+          <li><time datetime="2026-08-17">Aug 2026</time><span><a href="https://arxiv.org/abs/2608.16354" target="_blank" rel="noopener noreferrer">DriveCache</a>, our work on action-aware caching for driving world models, is available on arXiv.</span></li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <div class="section-title-row"><h2>Selected Research</h2><span class="section-note">2026</span></div>
+        <p class="research-note">Preprints and manuscripts · My name is highlighted below.</p>
+
+        <article class="paper">
+          <div class="paper-visual pleat-visual" role="img" aria-label="PLEAT: incoming LoRA experts are aligned and transported into a shared basis">
+            <span class="figure-kicker">CONTINUAL MODEL MERGING</span>
+            <div class="factor-row"><span>A<sub>1</sub> B<sub>1</sub></span><span>A<sub>2</sub> B<sub>2</sub></span><span>A<sub>t</sub> B<sub>t</sub></span></div>
+            <div class="basis-arrow">↓ &nbsp; align + transport &nbsp; ↓</div>
+            <div class="shared-basis"><span>C</span><span>×</span><span>Q</span></div>
+            <span class="figure-caption">A shared, evolving low-rank space</span>
+          </div>
+          <div class="paper-content">
+            <h3>PLEAT: Progressive LoRA Expert Aggregation and Transport for Continual Model Merging</h3>
+            <p class="authors"><strong>Jianchun Yang</strong>, Jian Liang, Xianda Guo, Yanlun Peng, Pinhan Fu, Ke He, Wenke Huang, Mang Ye</p>
+            <p class="venue"><em>Manuscript, 2026</em><span class="paper-label">First author</span></p>
+            <p class="paper-summary">Progressively updates a shared low-rank basis and transports historical coefficients to merge incoming LoRA experts without revisiting past expert checkpoints.</p>
+            <p class="paper-status">Under review at ICLR 2027.</p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <a class="paper-visual image-visual" href="https://arxiv.org/abs/2608.16354" target="_blank" rel="noopener noreferrer" aria-label="Read DriveCache on arXiv"><img src="drivecache-method.png" alt="DriveCache framework: ego-motion prior, dynamic-programming cache scheduling, and causal drift checks" width="1512" height="858" loading="lazy"></a>
+          <div class="paper-content">
+            <h3><a href="https://arxiv.org/abs/2608.16354" target="_blank" rel="noopener noreferrer">DriveCache: Action-Aware Caching for Driving World Model Inference</a></h3>
+            <p class="authors"><strong>Jianchun Yang</strong>, Jian Liang, Xianda Guo, Pinhan Fu, Yanlun Peng, Conglang Zhang, Wenke Huang, Mang Ye</p>
+            <p class="venue"><em>arXiv preprint, 2026</em><span class="paper-label">First author</span></p>
+            <p class="paper-summary">Uses planned ego motion to allocate feature reuse, schedules it across denoising steps, and refreshes the cache when the generation drifts from calibration.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2608.16354" target="_blank" rel="noopener noreferrer">arXiv ↗</a><a href="https://arxiv.org/pdf/2608.16354" target="_blank" rel="noopener noreferrer">PDF ↗</a></div>
+            <p class="paper-status">Under review at AAAI 2027 · Advanced to the second review round.</p>
+          </div>
+        </article>
+
+        <article class="paper">
+          <a class="paper-visual image-visual" href="https://arxiv.org/abs/2608.22403" target="_blank" rel="noopener noreferrer" aria-label="Read LD4WAM on arXiv"><img src="ld4wam-overview.png" alt="LD4WAM overview: human and robot video, motion-aligned latent dynamics, and robot action generation" width="1512" height="621" loading="lazy"></a>
+          <div class="paper-content">
+            <h3><a href="https://arxiv.org/abs/2608.22403" target="_blank" rel="noopener noreferrer">LD4WAM: Learning Latent Dynamics from Human Videos for World Action Models</a></h3>
+            <p class="authors">Zhenhao Shen, Jiaqi Liang, Jasper Lu, Feng Jiang, Yuran Wang, Chuanbo Wei, Jiayi Liu, <strong>Jianchun Yang</strong>, Qize Yu, Jiadi You, Ce Hao, Guanqi He, Chen Xie, Ruihai Wu</p>
+            <p class="venue"><em>arXiv preprint, 2026</em></p>
+            <p class="paper-summary">Learns motion-aligned latent dynamics from human and robot videos to bridge future-video prediction and executable robot actions.</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2608.22403" target="_blank" rel="noopener noreferrer">arXiv ↗</a><a href="https://arxiv.org/pdf/2608.22403" target="_blank" rel="noopener noreferrer">PDF ↗</a></div>
+            <p class="paper-status">Under review at AAAI 2027 · Advanced to the second review round.</p>
+          </div>
+        </article>
+      </section>
+
+      <section id="experience">
+        <h2>Research Experience</h2>
+        <div class="experience-row"><img class="institution-logo" src="whu.png" alt="Wuhan University emblem" width="42" height="42" loading="lazy"><div><div class="entry-heading"><h3>Wuhan University</h3><span class="entry-date">2025 – present</span></div><p class="entry-subtitle">Research Intern · Mentor: Prof. Mang Ye</p><p>Continual model merging and parameter-efficient adaptation. First-author work: PLEAT.</p></div></div>
+        <div class="experience-row"><img class="institution-logo logo-wide" src="gwm.png" alt="Great Wall Motor emblem" width="42" height="30" loading="lazy"><div><div class="entry-heading"><h3>Great Wall Motor</h3><span class="entry-date">2026</span></div><p class="entry-subtitle">Research Intern · Mentor: Daguo Xian</p><p>Training-free inference acceleration for driving world models. First-author work: DriveCache.</p></div></div>
+        <div class="experience-row"><div class="pku-mark" aria-hidden="true">北大</div><div><div class="entry-heading"><h3>Peking University &amp; Lightwheel</h3><span class="entry-date">2026</span></div><p class="entry-subtitle">Research Collaboration · Mentor: Dr. Ruihai Wu</p><p>Motion-aligned representations for world action models. Collaborative work: LD4WAM.</p></div></div>
+      </section>
+
+      <section id="education">
+        <h2>Education</h2>
+        <div class="entry-heading"><h3>Wuhan University</h3><span class="entry-date">2024 – present</span></div>
+        <p class="entry-subtitle">Undergraduate · Spatial Information and Digital Technology, Experimental Program</p>
+        <p>School of Remote Sensing and Information Engineering</p>
+        <p>GPA: <strong>3.80 / 4.00</strong> · Selected through a university-wide secondary selection admitting 28 students.</p>
+      </section>
+
+      <section id="awards">
+        <h2>Honors &amp; Projects</h2>
+        <ul class="awards-list">
+          <li><strong>MIND News Recommendation Competition</strong><br>Third on the Official Test overall leaderboard, as recorded in October 2026.</li>
+          <li><strong>Gold Award, 13th Wuhan University Ziqiang Cup</strong><br>Core member of a team developing a disaster sensing and early-warning platform.</li>
+          <li><strong>National Undergraduate Innovation Training Program, 2026</strong><br>Nationally approved project on a multi-layer GraphRAG system for neurological diagnosis support.</li>
+          <li>Awards in mathematical modeling competitions, including CUMCM, MCM/ICM, and the Central China Cup.</li>
+        </ul>
+      </section>
+
+      <footer><span>© 2026 Jianchun Yang</span><span>Last updated: October 2026</span></footer>
+    </main>
+  </div>
+  <button class="back-top" type="button" aria-label="Back to top" title="Back to top">↑</button>
+</body>
+</html>
