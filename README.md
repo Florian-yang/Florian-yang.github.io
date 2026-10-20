@@ -1,28 +1,10 @@
 # Jianchun Yang — Academic Homepage
 
-A small, buildless academic website for GitHub Pages. No package installation, third-party analytics, remote fonts, or build step is required.
+Static export of the **AcadHomepage** template, the same upstream template used by zewei-zhou.github.io.
+Upstream: https://github.com/RayeRen/acad-homepage.github.io (MIT; original license included).
 
-## Files
+The original template HTML structure, responsive layout, compiled stylesheet, navigation script and icon fonts are retained. Custom content and small presentation overrides are in index.html and custom.css.
 
-- `index.html`: biography, news, three research entries, experience, education, and honors.
-- `style.css`: responsive layout.
-- `script.js`: navigation state and back-to-top control.
-- Image and SVG files in the repository root: publication thumbnails, institutional emblems, and the public GitHub profile image.
+The seven manuscripts and four research experiences follow the full CV. Public arXiv links are included only where the author list is consistent. Figures are complete original-paper figures rendered at high resolution; click to open them. No GPA, phone number, or private full manuscript PDFs are published.
 
-## Publish with GitHub Pages
-
-Upload these files to the root of a repository named `Florian-yang.github.io`. In **Settings → Pages**, select **Deploy from a branch**, then the `main` branch and `/ (root)`. The site will be at `https://Florian-yang.github.io/` after deployment.
-
-If that repository already exists, preserve its files and history and review changes before replacing its homepage.
-
-## Edit
-
-Edit the text directly in `index.html`. A real portrait can replace the initials by using a local image with meaningful alt text. Update the footer date when editing substantive information.
-
-## Content and sources
-
-Content is based on the owner's supplied CV. DriveCache and LD4WAM link to public arXiv records. Conference submission statuses are owner-provided and distinct from acceptance. The MIND ranking is identified as a historical observation. No private manuscript PDF, phone number, experiment logs, or interview preparation material is included.
-
-Layout reference: https://zewei-zhou.github.io/ . Implementation and personal text are written independently; no reference-site source code, portrait, or publication assets are copied.
-
-Paper thumbnails: DriveCache and LD4WAM figures provided by the owner from the corresponding papers. The PLEAT thumbnail is an original schematic, not an unpublished manuscript crop.
+Deploy these files at the repository root with GitHub Pages on main.
